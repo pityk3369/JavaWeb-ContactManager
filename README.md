@@ -20,13 +20,13 @@
 
 ## 1-界面展示
 
-![image-20200214110816360](https://raw.github.com/pityk3369/repositpry/master/JavaWeb-ContactManager/image-20200214110816360.png)
+   ![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200214110816360.png)
 
 - 之前由于未加入CSS文件夹下的内容，网页格式完全错误！加入css文件后正常！
 
-  ![image-20200214110907532](D:\md_photos\image-20200214110907532.png)
+  ![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200214110907532.png)
 
-- ![image-20200214111143859](D:\md_photos\image-20200214111143859.png)
+- ![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200214111143859.png)
 
   界面终于好了！
 
@@ -78,7 +78,7 @@
 
 1. 调整页面，加入验证码功能
 
-   ![image-20200213171504124](D:\md_photos\image-20200213171504124.png)
+  ![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200213171504124.png)
 
 2. 代码实现
 
@@ -255,7 +255,7 @@
 
 ## 5-修改联系人
 
-![image-20200214142529736](D:\md_photos\image-20200214142529736.png)
+![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200214142529736.png)
 
 - 新增update.jsp文件
 
@@ -462,11 +462,11 @@
 - 通过浏览器抓包来查看form表单提交情况
 
   选中联系人，勾选复选框
-  ![image-20200214204649792](D:\md_photos\image-20200214204649792.png)
+  ![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200214204649792.png)
 
   查看表单提交的情况：
 
-  ![image-20200214204526205](D:\md_photos\image-20200214204526205.png)
+  ![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200214204526205.png)
 
   
 
@@ -566,7 +566,7 @@
 
 ## 7-分页查询功能
 
-![image-20200215114512934](D:\md_photos\image-20200215114512934.png)
+![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200215114512934.png)
 
 ### 服务器端
 
@@ -614,7 +614,7 @@ public class PageBean<T> {
 --》在UserService中1.新建PageBean对象，2.设置当前页面currentPage属性和rows属性并计算总页码、3.调用dao查询总记录、4.查询list集合；
 --》在UserDao中操作数据库：查询总记录数、计算分页查询List，返回给UserService。
 
-![image-20200215121105114](D:\md_photos\image-20200215121105114.png)
+![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200215121105114.png)
 
 - 新增FindUserByPageServlet
 
@@ -718,7 +718,7 @@ public class PageBean<T> {
 
   - 修改页码总记录
 
-    ![image-20200215142911425](D:\md_photos\image-20200215142911425.png)
+    ![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200215142911425.png)
 
     ```jsp
     list.jsp中修改：
@@ -838,7 +838,7 @@ MYSQL语句为：
 SELECT * FROM USER WHERE NAME LIKE '%李' AND address LIKE '%北京%' LIMIT 0,5;
 ```
 
-![image-20200215171134200](D:\md_photos\image-20200215171134200.png)
+![image](https://github.com/pityk3369/JavaWeb-ContactManager/blob/master/image-20200215171134200.png)
 
 - 还是利用PageBean，从后台输出前端；从前端的条件筛选表单建立个map传回参数。
   根据map中的value值动态拼接生成sql语句；
