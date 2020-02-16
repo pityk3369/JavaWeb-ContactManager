@@ -20,7 +20,7 @@
 
 ## 1-界面展示
 
-![image-20200214110816360](D:\md_photos\image-20200214110816360.png)
+![image-20200214110816360](https://raw.github.com/pityk3369/repositpry/master/JavaWeb-ContactManager/image-20200214110816360.png)
 
 - 之前由于未加入CSS文件夹下的内容，网页格式完全错误！加入css文件后正常！
 
